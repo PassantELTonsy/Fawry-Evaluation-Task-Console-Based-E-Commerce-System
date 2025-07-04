@@ -1,6 +1,6 @@
 # Fawry-Evaluation-Task-Console-Based-E-Commerce-System
 <div align="center">
-  <img src= "fawry-logo-png_seeklogo-326467.png" width="200"/>
+  <img src= "fawry-logo-png_seeklogo-326467.png" width="400"/>
 </div>
 
 # Overview
