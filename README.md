@@ -1,8 +1,8 @@
 # Fawry-Evaluation-Task-Console-Based-E-Commerce-System
 # Overview
-This project is a console-based Java application that simulates an e-commerce system with:
+- This project is a console-based Java application that simulates an e-commerce system with:
 
-Product management (with or without expiry dates)
+- Product management (with or without expiry dates)
 
 Customer cart and balance
 
