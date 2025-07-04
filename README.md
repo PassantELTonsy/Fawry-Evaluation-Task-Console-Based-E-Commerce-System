@@ -11,7 +11,7 @@ Checkout process and invoice calculation with shipping details.
 Built using OOP principles and tested with edge-case scenarios.
 
 
-#Key Features
+# Key Features
 
 Product Abstraction: Abstract Product class extended by ExpirableProducts and NonExpirableProducts
 
@@ -24,7 +24,7 @@ Cart Management: Cart holds product-to-quantity mappings
 Checkout System: Handles product expiry, stock validation, balance, and shipping
 
 
-#Run Instructions
+# Run Instructions
 
 1. Clone or download the repo.
 
@@ -35,11 +35,31 @@ Checkout System: Handles product expiry, stock validation, balance, and shipping
 4. Run the program and follow the console prompts
 
 
-#UML Diagram
+# UML Diagram
 
 The project design follows a modular class structure.
 
 UML Diagram File: See attached file E-Commerce mini project.drawio
 
 Diagram includes classes: Product, ExpirableProducts, NonExpirableProducts, ShippableProductWrapper, Cart, Customer, ShippingService, Main, and interface Shipping
+
+# Files
+
+Main.java – Entry point with interactive menu
+
+Product.java – Abstract base class
+
+ExpirableProducts.java, NonExpirableProducts.java
+
+ShippableProductWrapper.java
+
+Cart.java, Customer.java
+
+Shipping.java – Interface
+
+ShippingService.java
+
+ECommerce_UML.drawio – UML Class Diagram
+
+Documentation  -   Conatins test cases and solved issues
 
