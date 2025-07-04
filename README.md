@@ -1,27 +1,29 @@
 # Fawry-Evaluation-Task-Console-Based-E-Commerce-System
+![Fawry Logo](https://upload.wikimedia.org/wikipedia/commons/2/2c/Fawry_Logo.png)
+
 # Overview
 - This project is a console-based Java application that simulates an e-commerce system with:
 
 - Product management (with or without expiry dates)
 
-Customer cart and balance
+- Customer cart and balance
 
-Checkout process and invoice calculation with shipping details.
+- Checkout process and invoice calculation with shipping details.
 
-Built using OOP principles and tested with edge-case scenarios.
+- Built using OOP principles and tested with edge-case scenarios.
 
 
 # Key Features
 
-Product Abstraction: Abstract Product class extended by ExpirableProducts and NonExpirableProducts
+- Product Abstraction: Abstract Product class extended by ExpirableProducts and NonExpirableProducts
 
-Interface : Shipping interface applied only to products that require shipping
+- Interface : Shipping interface applied only to products that require shipping
 
-Decorator Pattern: ShippableProductWrapper wraps products to make them shippable
+- Decorator Pattern: ShippableProductWrapper wraps products to make them shippable
 
-Cart Management: Cart holds product-to-quantity mappings
+- Cart Management: Cart holds product-to-quantity mappings
 
-Checkout System: Handles product expiry, stock validation, balance, and shipping
+- Checkout System: Handles product expiry, stock validation, balance, and shipping
 
 
 # Run Instructions
@@ -37,29 +39,29 @@ Checkout System: Handles product expiry, stock validation, balance, and shipping
 
 # UML Diagram
 
-The project design follows a modular class structure.
+- The project design follows a modular class structure.
 
-UML Diagram File: See attached file E-Commerce mini project.drawio
+- UML Diagram File: See attached file E-Commerce mini project.drawio
 
-Diagram includes classes: Product, ExpirableProducts, NonExpirableProducts, ShippableProductWrapper, Cart, Customer, ShippingService, Main, and interface Shipping
+- Diagram includes classes: Product, ExpirableProducts, NonExpirableProducts, ShippableProductWrapper, Cart, Customer, ShippingService, Main, and interface Shipping
 
 # Files
 
-Main.java – Entry point with interactive menu
+- Main.java – Entry point with interactive menu
 
-Product.java – Abstract base class
+- Product.java – Abstract base class
 
-ExpirableProducts.java, NonExpirableProducts.java
+- ExpirableProducts.java, NonExpirableProducts.java
 
-ShippableProductWrapper.java
+- ShippableProductWrapper.java
 
-Cart.java, Customer.java
+- Cart.java, Customer.java
 
-Shipping.java – Interface
+- Shipping.java – Interface
 
-ShippingService.java
+- ShippingService.java
 
-ECommerce_UML.drawio – UML Class Diagram
+- ECommerce_UML.drawio – UML Class Diagram
 
-Documentation  -   Conatins test cases and solved issues
+- Documentation.pdf  -   Conatins test cases and solved issues
 
