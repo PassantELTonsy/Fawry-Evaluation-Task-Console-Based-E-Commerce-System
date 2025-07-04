@@ -1,5 +1,8 @@
 # Fawry-Evaluation-Task-Console-Based-E-Commerce-System
-![Fawry Logo](fawry-logo-png_seeklogo-326467.png)
+<div align="center">
+  <img src= "fawry-logo-png_seeklogo-326467.png" width="200"/>
+</div>
+
 # Overview
 - This project is a console-based Java application that simulates an e-commerce system with:
 
